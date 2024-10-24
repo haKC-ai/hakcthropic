@@ -3,12 +3,12 @@ from unittest import mock
 import pytest
 from streamlit.testing.v1 import AppTest
 
-from kali.streamlit import Sender, TextBlock
+from kali.kali.hakc_streamlit import Sender, TextBlock
 
 
 @pytest.fixture
 def streamlit_app():
-    return AppTest.from_file("kali/kali/streamlit.py")
+    return AppTest.from_file("kali/kali/hakc_streamlit.py")
 
 
 def test_streamlit(streamlit_app: AppTest):
