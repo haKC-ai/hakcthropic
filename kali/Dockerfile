@@ -76,8 +76,8 @@ ENV VIRTUAL_ENV="$HOME/.venv"
 RUN . $HOME/.venv/bin/activate && \
     pip install --upgrade pip==23.1.2 setuptools==58.0.4 wheel==0.40.0 && \
     pip config set global.disable-pip-version-check true \
-    pip install streamlit==1.24.1 pillow 
-    #PYTHONPATH=/usr/lib/python3/dist-packages pip install streamlit==1.24.1
+    #pip install streamlit==1.24.1 pillow 
+    PYTHONPATH=/usr/lib/python3/dist-packages pip install streamlit==1.24.1
 
 
 # Copy requirements and install
