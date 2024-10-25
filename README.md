@@ -54,6 +54,12 @@ https://github.com/user-attachments/assets/4f6b5827-89d0-47d9-ace3-2d0965f5358b
    mv hacking_sample.env .env
    read -sp "Enter your Anthropic API key: " apikey && echo "ANTHROPIC_API_KEY=$apikey" > .env
    ```
+3. Rename some stuff
+      ```bash
+      cd kali/image
+      mv removeME.streamlit .streamlit
+      mv removeME.config .config
+       ```
 
 2. Run the `start_hacking.sh` script: 
     ```bash
@@ -78,6 +84,8 @@ The `start_hacking.sh` script will:
 - The script drops the `.env` file in `anthropic-quickstarts/computer-use-demo/`.
 
 ## PSST... Now that you have that working want to Use Kali? 🐉
+
+![Screenshot 2024-10-24 at 6 57 52 PM](https://github.com/user-attachments/assets/b47a752d-b019-4bbf-997b-82deeddeec9b)
 
 You are in luck dear haKCer, I made you a gift.  To move Just use the `Dockerfile` in the `kali/` directory and build your very own Kali instance to use instead of Anthropic's default image.
 
