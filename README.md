@@ -83,7 +83,8 @@ The `start_hacking.sh` script will:
 - Ensure Docker is installed and running on your system.
 - The script drops the `.env` file in `anthropic-quickstarts/computer-use-demo/`.
 
-## PSST... Now that you have that working want to Use Kali? 🐉
+## ![183930](https://github.com/user-attachments/assets/2ebd7ff3-4c19-4b74-ba14-88341cef3c51) PSST... Now that you have that working want to Use K🅐L🅘? 
+
 
 ![Screenshot 2024-10-24 at 6 57 52 PM](https://github.com/user-attachments/assets/b47a752d-b019-4bbf-997b-82deeddeec9b)
 
